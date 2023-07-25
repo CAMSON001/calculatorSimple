@@ -1,0 +1,115 @@
+
+
+
+    
+body{
+
+    min-height: 100vh;
+    background-color: rgb(155, 155, 155) ;
+    background-size:cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+
+
+
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    height: 300px;
+    width: 255px;
+    display:block;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.60);
+    border-radius: 10px;
+
+}
+
+
+.creen
+{
+    background-color:rgba(152, 164, 159, 0.15) ; ;
+    width: 100%;
+    height: 16%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.60);
+    margin-bottom: 4%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: end;
+    justify-content:end;
+
+}
+
+.creen p{
+    margin-right: 10px;
+}
+
+.buttonSide
+{
+    height: 79%;
+    width: 100%;
+}
+
+.btnRows{
+
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+button
+{
+
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(156, 219, 153, 0.20), rgba(156, 219, 153,0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(156, 219, 153, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.60);
+    border-left: 4px solid rgba(27, 196, 20, 20);
+    border-right: 4px solid rgba(27, 196, 20, 20);
+    cursor: pointer;
+    font-weight: 40em;
+    font-size:14px ;
+    margin-left: 7px;
+
+
+}
+
+
+button:hover
+{
+    background: rgba(27, 196, 20, 0.15);
+    border-top:2px solid rgba(27, 196, 20, 20);
+    border-bottom:2px solid rgba(27, 196, 20, 20);
+    border-left: 0px solid rgba(27, 196, 20, 20);
+    border-right: 0px solid rgba(27, 196, 20, 20);
+}
+
+#reset
+{
+    position: relative;
+    background: rgba(196, 85, 20, 0.15);
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+#zero{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+}
+#divide, #multiply, #subs, #plus, #equal{
+    background: rgba(196, 20, 20, 0.15);
+}
